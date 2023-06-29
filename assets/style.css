@@ -1,0 +1,47 @@
+
+  header {
+    width: 100%;
+  }
+  
+  main {
+    overflow: auto;
+    height: 2500px;
+  }
+  
+  #navbarNav {
+    max-width: 150px;
+    width: 100;
+    max-height: 48px;
+    height: 100%;
+  }
+  
+  #sidebarMenu {
+  
+    background-color: rgb(14, 14, 58);
+    position: fixed;
+    max-width: 200px;
+    z-index: 500;
+    height: 100%;
+    margin-top: 48px;
+  }
+  
+  .small-logo-mobile {
+    max-width: 50px;
+  }
+  
+  .blue-bar {
+    margin-top: 48px;
+    padding-left: 6rem;
+    padding-top: 1.5rem;
+  }
+  
+  
+  
+ 
+  @media screen and (min-width: 992px) {
+    .blue-bar {
+      padding-left: 9rem;   
+    }
+   
+  }
+  
